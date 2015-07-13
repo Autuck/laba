@@ -19,12 +19,12 @@ size="10" />
 <br /><br /> 
 </form> 
 
-}
+
 </script>
- <script> 
+<script> 
 function otvet() {var q = document.forma1.q.value; var p = 
 
-document.forma1.p.value;  var z=0; 
+document.forma1.p.value; var z=0; 
 var arr = [];
 while(z<67){
 var elem = Math.floor((Math.random()*67)+0);
@@ -35,10 +35,10 @@ for (var z=0;z<=arr.length;z++){
 if (arr[z]%p==q)
 { (arr[z]=0);
 } else {
- (arr[z]);}
+(arr[z]);}
 ;
 }
- alert (arr); 
+alert (arr); }
 </script>
 </body>
 </html>
